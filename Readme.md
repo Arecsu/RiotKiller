@@ -16,7 +16,7 @@ Version v1.0 is here.
 
 [With console messages](https://github.com/Arecsu/RiotKiller/releases/download/v1.0/RiotKiller.exe)
 
-[Without messages (invisible mode)](https://github.com/Arecsu/RiotKiller/releases/download/v1.0/RiotKiller-invisible.exe)
+[Without messages (invisible mode RECOMMENDED)](https://github.com/Arecsu/RiotKiller/releases/download/v1.0/RiotKiller-invisible.exe)
 
 ## How it works
 
