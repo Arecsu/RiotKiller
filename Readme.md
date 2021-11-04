@@ -12,7 +12,11 @@ Otherwise, I didn't make this application to accept custom paths. If someone can
 
 ## Download
 
-Version v1.0 is here. [Download it](https://github.com/Arecsu/RiotKiller/releases/download/v1.0/RiotKiller.exe).
+Version v1.0 is here. 
+
+[With console messages](https://github.com/Arecsu/RiotKiller/releases/download/v1.0/RiotKiller.exe)
+
+[Without messages (invisible mode)](https://github.com/Arecsu/RiotKiller/releases/download/v1.0/RiotKiller-invisible.exe)
 
 ## How it works
 
