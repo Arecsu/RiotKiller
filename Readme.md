@@ -2,7 +2,7 @@
 
 Wtf Riot? Anyways...
 
-This application launch League of Legends by calling `RiotClientServices.exe --launch-product=league_of_legends --launch-patchline=live`. It seems to be the modern way to launch League of Legends.
+This application launches League of Legends by calling `RiotClientServices.exe --launch-product=league_of_legends --launch-patchline=live`. It seems to be the modern way to launch League of Legends.
 
 I've tried opening LeagueClient.exe without using RiotClientServices but it keeps opening the RiotClient no matter what. So it doesn't matter.
 
