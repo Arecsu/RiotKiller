@@ -10,6 +10,10 @@ If you have installed the Riot Client in the default folder `C:\Riot Games\Riot 
 
 Otherwise, I didn't make this application to accept custom paths. If someone can throw me some code, I will merge it up and update it.
 
+## Download
+
+Version v1.0 is here. [Download it](https://github.com/Arecsu/RiotKiller/releases/download/v1.0/RiotKiller.exe).
+
 ## How it works
 
 1. Launch League of Legends
