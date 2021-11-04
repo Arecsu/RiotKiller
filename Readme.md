@@ -17,7 +17,7 @@ Version v1.0 is here. [Download it](https://github.com/Arecsu/RiotKiller/release
 ## How it works
 
 1. Open RiotKiller.exe It will automatically launch League of Legends for you
-2. Once League of Legends has been launched, it sits there. You can minimize the console window.
+2. Once League of Legends has been launched, it will keep monitoring the process. You can minimize the console window.
 3. It will detect when you close the client.
 4. Once the client is closed, it will force kill LeagueClient.exe and RiotClientServices.exe
 5. Done! It will now automatically close by itself.
