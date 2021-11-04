@@ -75,10 +75,8 @@ void kill(const char *filename) {
     CloseHandle(hSnapShot);
 }
 
-int main() {
-
-   // launch lol
-   std::cout << "Starting League of Legends\n" << std::endl;
+bool launchLol() {
+   std::cout << "Starting League of Legends. Waiting 30 seconds for it to be open...\n" << std::endl;
 
    char lol[] = "C:\\Riot Games\\Riot Client\\RiotClientServices.exe --launch-product=league_of_legends --launch-patchline=live";
    startup(lol);
@@ -86,16 +84,26 @@ int main() {
    // set number of attempts at checking for lol launch
    int attempts=30; 
    for (int i = 1; i <= attempts; i++) {
-      std::cout << "Attempt " + std::to_string(i) << std::endl;
+      //std::cout << "Attempt " + std::to_string(i) << std::endl;
       if (IsProcessRunning("LeagueClientUx.exe")) {
-         std::cout << "League of Legends has been started!" << std::endl;
-         std::cout << "Once you close LoL, it will attempt to kill RiotClient before it spawns.\n" << std::endl;
-         std::cout << "DON'T CLOSE ME. Just keep me minimized and I will do the trick.\n" << std::endl;
-         break;
+         return true;
       }
       Sleep(1000);
    }
+   return false;
+}
 
+int main() {
+
+   if (launchLol()) {
+        std::cout << "League of Legends has been started!" << std::endl;
+        std::cout << "Once you close LoL, it will attempt to kill RiotClient before it spawns.\n" << std::endl;
+        std::cout << "DON'T CLOSE ME. Just keep me minimized and I will do the trick.\n" << std::endl;
+   } else {
+       std::cout << "League never launched successfully :(\n" << std::endl;
+       system("pause");
+       return 0;
+   }
    
    // checking for LeagueClientUx instead of LeagueClient because it will
    // shutdown earlier and chances of killing riot client sooner are greater.
@@ -112,4 +120,3 @@ int main() {
 
    return 0;
 }
-
