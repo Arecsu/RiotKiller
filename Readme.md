@@ -25,3 +25,9 @@ Version v1.0 is here.
 3. It will detect when you close the client.
 4. Once the client is closed, it will force kill LeagueClient.exe and RiotClientServices.exe
 5. Done! It will now automatically close by itself.
+
+## The community so far:
+
+- https://www.reddit.com/r/leagueoflegends/comments/qlnmmc/i_dont_care_if_league_gives_me_another_client_to/
+- [Whoops, this one has been deleted!](https://www.reddit.com/r/leagueoflegends/comments/qmgrlz/the_state_of_this_new_launcher_is_not_ok/). They say it's because is a repost from the previous one... but they cover sightly different points of view about the issue. Mmmmm...
+- And [my post](https://www.reddit.com/r/leagueoflegends/comments/qmqk6v/tired_of_riot_client_opening_after_closing_league/) about this tool, which 10 minutes after being posted has been deleted. Thank you Riot. No reasons why it has been removed so far.
